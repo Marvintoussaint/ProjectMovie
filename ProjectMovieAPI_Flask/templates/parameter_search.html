@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="{{url_for('search')}}" method="POST">
+        <div class="input text">{{form.moviename}}</div>
+        <label>{{form.movieparam}}</label>
+        <div class ="input submit"> </div>
+
+        <br>
+        <input type="submit" value="Search">
+    </form>
+
+</body>
+</html>
